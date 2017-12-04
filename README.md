@@ -14,9 +14,9 @@ This extension contains utilities for LINE bot developers.
 1. Open any .json file, and select JSON object.
 1. Click preview icon on the right top.
 1. You see the parsed UI results. You can change the JSON data which update the UI realtime.<br/>
-![ui1](https://github.com/kenakamu/LINEBotDeveloperUtil/blob/master/readme_images/ui1.gif)
+![ui1](https://github.com/kenakamu/LINEBotDeveloperUtil/blob/master/readme_images/UI1.gif)
 1. For nested JSON like buttons, you need to explicitly select JSON object from first '{' to last '}'. <br/>
-![ui2](https://github.com/kenakamu/LINEBotDeveloperUtil/blob/master/readme_images/ui1.gif)
+![ui2](https://github.com/kenakamu/LINEBotDeveloperUtil/blob/master/readme_images/UI2.gif)
 
 ## Supported Snippets.
 - Text Message
