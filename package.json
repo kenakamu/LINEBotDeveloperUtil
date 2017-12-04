@@ -1,0 +1,64 @@
+{
+	"name": "linebotutilities",
+	"displayName": "LINE Bot Development Utilities",
+	"description": "This extension contains JSON parser to UI and snippets to craft JSON for LINE messages.",
+	"version": "0.1.0",
+	"publisher": "kenakamu",
+	"galleryBanner": {
+		"color": "#5c2d91",
+		"theme": "dark"
+	},
+	"license": "SEE LICENSE IN LICENSE.md",
+	"engines": {
+		"vscode": "^0.10.7"
+	},
+	"categories": [
+		"Snippets",
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:extension.previewLineMessage"
+	],
+	"main": "./out/extension",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.previewLineMessage",
+				"title": "Preview LINE Message.",
+				"icon": {
+					"light": "./img/line-preview.png",
+					"dark": "./img/line-preview.png"
+				}
+			}
+		],
+		"menus": {
+			"editor/title": [
+				{
+					"command": "extension.previewLineMessage",
+					"when": "resourceLangId == json",
+					"group": "navigation"
+				}
+			]
+		},
+		"snippets": [
+            {
+                "language": "json",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "npm run compile && node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"@types/jquery": "^3.2.16",
+		"@types/mocha": "^2.2.42",
+		"@types/node": "^7.0.43",
+		"typescript": "^2.6.1",
+		"vscode": "^1.1.6"
+	}
+}
