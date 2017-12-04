@@ -2,7 +2,7 @@
 	"name": "linebotutilities",
 	"displayName": "LINE Bot Development Utilities",
 	"description": "This extension contains JSON parser to UI and snippets to craft JSON for LINE messages.",
-	"version": "0.1.0",
+	"version": "0.1.2",
 	"publisher": "kenakamu",
 	"galleryBanner": {
 		"color": "#5c2d91",
@@ -16,6 +16,15 @@
 		"Snippets",
 		"Other"
 	],
+	"icon": "img/line-preview.PNG",
+	"homepage": "https://github.com/kenakamu/LINEBotDeveloperUtil/blob/master/README.md",
+	"bugs": {
+		"url": "https://github.com/kenakamu/LINEBotDeveloperUtil/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kenakamu/LINEBotDeveloperUtil"
+	},
 	"activationEvents": [
 		"onCommand:extension.previewLineMessage"
 	],

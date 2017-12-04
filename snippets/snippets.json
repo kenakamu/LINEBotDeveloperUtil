@@ -4,7 +4,7 @@
         "body": [
             "{",
             "\t\"type\": \"text\",",
-            "\t\"text\": \"Hello, world\",",
+            "\t\"text\": \"Hello, world\"",
             "}"
         ],
         "description": "LINE Text Message"
@@ -15,7 +15,7 @@
             "{",
             "\t\"type\": \"sticker\",",
             "\t\"packageId\": \"1\",",
-            "\t\"stickerId\": \"1\",",
+            "\t\"stickerId\": \"1\"",
             "}"
         ],
         "description": "LINE Sticker Message"
@@ -61,7 +61,7 @@
                 "\t\"title\": \"my location\",",
                 "\t\"address\": \"〒150-0002 東京都渋谷区渋谷２丁目２１−１\"",
                 "\t\"latitude\": \"35.65910807942215\",",
-                "\t\"longitude\": \"139.70372892916203\",",
+                "\t\"longitude\": \"139.70372892916203\"",
             "}"
         ],
         "description": "LINE Location Message"
