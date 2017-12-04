@@ -2,7 +2,7 @@
 	"name": "linebotutilities",
 	"displayName": "LINE Bot Development Utilities",
 	"description": "This extension contains JSON parser to UI and snippets to craft JSON for LINE messages.",
-	"version": "0.1.3",
+	"version": "0.1.5",
 	"publisher": "kenakamu",
 	"galleryBanner": {
 		"color": "#5c2d91",
